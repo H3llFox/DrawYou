@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="it-IT">
+<head>
+    <meta charset="utf-8">
+    <meta name="Danilo Quattrini" content="width=device-width, initial-scale=1">
+    <title>DrawYou</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="css/stylepapersheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="homepage">
+    <!-- Immagine con logo del sito web-->
+    <div>
+        <img src="img/Logo_sito.svg" class="mx-auto d-block w-50 h-25" alt="logo del sito con scritto DrawYou"/>
+    </div>
+    <!-- Nav bar dove l'utente può giare tra le pagine del sito-->
+    <nav class="navbar navbar-expand-lg bg-body-white border-top  border-bottom border-black border-2 ">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item  fs-5" style="margin-right: 8rem">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item fs-5 " style="margin-right: 8rem">
+                        <a class="nav-link" href="starter.html">Cominciamo</a>
+                    </li>
+                    <li class="nav-item  fs-5" style="margin-right: 8rem">
+                        <a class="nav-link" href="artist.html">Artisti</a>
+                    </li>
+                    <li class="nav-item  fs-5" >
+                        <a class="nav-link " aria-current="page" href="drawing.html">Disegniamo</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mezzo della pagina-->
+    <div>
+        <h1 id="titolo" style="text-align: center; font-size:200px; padding-bottom: 20px;">Welcome</h1>
+    </div>
+    <div id="carouselExampleSlidesOnly" style="text-align: center;" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/mrd-doodle.jpg" class="" alt="quadro di mr-doodle">
+                <div class="carousel-caption d-none d-md-block bottom-0 text-white bg-opacity-50 bg-black p-0 w-auto">
+                    <h1 class="opacity-100">Fatti ispirare</h1>
+                    <p>Vedrai l'arte in un'altra prospettiva con i nostri corsi </p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/donna_che_dipinge.jpg" class="d-block w-100" alt="donna che sta dipingendo">
+                <div class="carousel-caption d-none d-md-block bottom-0 text-white bg-opacity-50 bg-black p-0 w-auto">
+                    <h1 class="opacity-100">Impari già da subito</h1>
+                    <p>Puoi già cominciare a mettere mano sul tuo primo lavoro artistico</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/pittura_su_coso.jpg" class="d-block w-100" alt="mano che tiene una tavoletta di colori">
+                <div class="carousel-caption d-none d-md-block bottom-0 text-white bg-opacity-50 bg-black p-0 w-auto">
+                    <h1 class="opacity-100">Il nostro insegnamento è unico </h1>
+                    <p>Non saraì mai annoiato con noi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Script utilizzato per il cambio delle parole in ogni lingua -->
+    <script src="js/changelanguage.js"></script>
+
+    <div class="border-top border-black m-5">
+        <h1 style="font-size: 60px" class="m-xl-2 text-center"> I nostri esperti </h1>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 " style="margin-left: 125px">
+        <div class="col">
+            <div class="card" style="width: 18rem">
+                <img src="artists/peep-12.png" class="card-img-top" alt="Immagine avatar di Marco ">
+                <hr>
+                <div class="card-body">
+                    <h1 class="card-title fs-2">Marco</h1>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer <a href="#">info</a></p>
+                    <!-- stelle per la recensione dell'artista -->
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <br>
+                    <button style="font-size: 15px; background-color: white; padding: 10px; border-radius: 5px;margin-top: 5px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-person-lines-fill" viewBox="0 0 18 18">
+                            <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z"/>
+                        </svg>
+                        Contatta
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem">
+                <img src="artists/peep-15.png" class="card-img-top" alt="Immagine avatar di melissa">
+                <hr>
+                <div class="card-body">
+                    <h1 class="card-title fs-2">Melissa</h1>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer <a href="#">info</a></p>
+                    <!-- stelle per la recensione dell'artista -->
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <br>
+                    <button style="font-size: 15px; background-color: white; padding: 10px; border-radius: 5px; margin-top: 5px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                             class="bi bi-person-lines-fill" viewBox="0 0 18 18">
+                            <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z"/>
+                        </svg>
+                        Contatta
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem">
+                <img src="artists/peep-11.png" class="card-img-top" alt="immagine di profilo di alice">
+                <hr>
+                <div class="card-body">
+                    <h1 class="card-title fs-2">Francesca</h1>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer<a href="#">info</a></p>
+                    <!-- stelle per la recensione dell'artista -->
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <br>
+                    <button style="font-size: 15px; background-color: white; padding: 10px; border-radius: 5px;margin-top: 5px;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-person-lines-fill" viewBox="0 0 18 18">
+                            <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z"/>
+                        </svg>
+                        Contatta
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--Pulsante per migliorare l'eseperienza dell'utente-->
+<div class="container border-top border-black  m-5">
+    <div class="image w-75 m-5">
+        <img src="img/doodleconcuore.svg" alt="Immagine di doddle con cuore in mano">
+    </div>
+    <div class="text">
+        <h1>Siamo vicini a tutti <strong>Nessuno escluslo</strong></h1>
+        <p style="font-size: 25%">Non ti preoccupare!! Se è la prima volta che
+            ci vieni a visitare <u>possiamo aiutarti noi con la tua idea </u>
+            da noi non ci sono limiti di nessun tipo
+        </p>
+        <button style="font-size: 20px; background-color: white; padding: 10px; border-radius: 5px; " onclick="window.location.href='youcandoit.html';">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 18 18">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+            </svg>
+            Scopri di più
+        </button>
+    </div>
+</div>
+<iframe src="footer.html" width="100%" height="500"></iframe>
+
+</div>
+
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

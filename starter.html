@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Danilo Quattrini" content="width=device-width, initial-scale=1">
+    <title>Cominciamo</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="css/stylepapersheet.css" rel="stylesheet">
+</head>
+<body>
+<!-- Immagine con logo del sito web-->
+<div>
+    <img src="img/Logo_sito.svg" class="mx-auto d-block w-50 h-25" alt="logo del sito con scritto DrawYou"/>
+</div>
+<!-- Nav bar dove l'utente può giare tra le pagine del sito-->
+<nav class="navbar navbar-expand-lg bg-body-white border-top  border-bottom border-black border-2 ">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item  fs-5" style="margin-right: 8rem">
+                    <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item fs-5 " style="margin-right: 8rem">
+                    <a class="nav-link" href="index.html">Cominciamo</a>
+                </li>
+                <li class="nav-item  fs-5" style="margin-right: 8rem">
+                    <a class="nav-link" href="artist.html">Artisti</a>
+                </li>
+                <li class="nav-item fs-5" >
+                    <a class="nav-link " aria-current="page" href="drawing.html">Disegniamo</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="cominciamo">
+    <h1 style="text-align: center; font-size: 62px" class="m-5"> Comincia già da subito </h1>
+    <!--Video presentazione della prima cosa da fare per cominciare-->
+    <div class="text-center ratio-16x9"
+         style="padding-top: 10px; margin-bottom: 15px; border-radius: 5px;">
+        <iframe class="shadow  mb-5 bg-body-tertiary rounded" width="1080" height="540"
+                src="https://www.youtube.com/embed/fR07wJJIBwI?si=FPhAc-g7MqA4E1dM"
+                title="Primo tutorial per cominciare"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+        </iframe>
+    </div>
+    <div class="border-bottom border-black m-5">
+        <h1 class="fs-1 text-center mx-5">Materiali necessari</h1>
+    </div>
+    <!-- Card con immagine del materiale da prendere  -->
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- Card con immagine dello skretch -->
+        <div class="card mx-5 my-3" style="width: 18rem;">
+            <img src="img/sketchbookjpg.jpg" class="card-img-top p-4" alt="Sketch Book della sakura 21x29">
+            <hr>
+            <div class="card-body">
+                <h1 class="card-title fs-2">Sketch book</h1>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <!-- Con l'attributo window.open faccio in modo che apra una nuova finesta con il prodotto -->
+                <button style="font-size: 15px; background-color: white; padding: 10px;border-radius: 5px;" onclick="window.open('https://www.theonlinepencompany.com/eu/sakura-sketchbook-white-pages-9-x-14cm');" >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-cart"
+                         viewBox="0 0 18 18">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                    </svg>
+                    Dove acquistarlo
+                </button>
+            </div>
+        </div>
+        <!-- Card con immagine del materiale della penna a china  -->
+        <div class="card mx-5 my-3" style="width: 18rem;">
+            <img src="img/penna-ad-inchiostro-pigmentato-nero-pigma-micron-sakura.jpg" class="card-img-top p-4" alt="immagine di una penna a china sakura micron">
+            <hr>
+            <div class="card-body">
+                <h1 class="card-title fs-2">Penna a china</h1>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <button style="font-size: 15px; background-color: white; padding: 10px; border-radius: 5px;" onclick="window.open('https://www.ebay.it/itm/161555575385');">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-cart"
+                         viewBox="0 0 18 18">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                    </svg>
+                    Dove acquistarlo
+                </button>
+            </div>
+        </div>
+        <!-- Card con immagine del materiale della matita -->
+        <div class="card mx-5 my-3" style="width: 18rem;">
+            <img src="img/matita_h2.jpeg" class="card-img-top p-4" alt="Immagine della matita hb staedtler">
+            <hr>
+            <div class="card-body">
+                <h1 class="card-title fs-2">Matita HB</h1>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <button style="font-size: 15px; background-color: white; padding: 10px; border-radius: 5px;" onclick="window.open('https://www.staedtler.com/it/it/prodotti/matite-e-accessori/matite/');">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-cart"
+                         viewBox="0 0 18 18">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                    </svg>
+                    Dove acquistarlo
+                </button>
+            </div>
+        </div>
+        <!-- Card con immagine del materiale della gomma -->
+        <div class="card mx-5 my-3" style="width: 18rem;">
+            <img src="img/gomma.jpeg" class="card-img-top p-4" alt="Immagine della gomma staedtler classica bianca">
+            <hr>
+            <div class="card-body">
+                <h1 class="card-title fs-2">Gomma</h1>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <button style="font-size: 15px; background-color: white; padding: 10px; border-radius: 5px;" onclick="window.open('https://www.staedtler.com/it/it/prodotti/matite-e-accessori/gomme/mars-plastic-526-50-gomma-di-ottima-qualita-526-50/');">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                         class="bi bi-cart"
+                         viewBox="0 0 18 18">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                    </svg>
+                    Dove acquistarlo
+                </button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <iframe src="footer.html" width="100%" height="500"></iframe>
+
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+</div>
+</body>
+</html>
