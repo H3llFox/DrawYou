@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body{
+    font-family: 'Chivo', sans-serif;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+}
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+img {
+    max-width: 100%;
+    max-height:100%;
+}
+
+.text {
+    font-size: 70px;
+    margin-bottom:50px;
+}
+#titolo {
+    transition: opacity 1s ease-in-out; /* Aggiungi una transizione CSS per l'opacità */
+}
+/* Definisci le dimensioni del rettangolo e l'area di visualizzazione fissa */
+#carouselExampleSlidesOnly {
+    width: 1000px; /* Larghezza del rettangolo */
+    height: 400px; /* Altezza del rettangolo */
+    margin: 0 auto; /* Centra il rettangolo orizzontalmente */
+}
+.checked {
+    color: orange;
+}
